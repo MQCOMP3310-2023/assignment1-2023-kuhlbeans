@@ -23,8 +23,8 @@ public class SQLiteConnectionManager {
     private String validWordsDropTableString = "DROP TABLE IF EXISTS validWords;";
     private String validWordsCreateString = 
           "CREATE TABLE validWords (\n" 
-        + "	id integer PRIMARY KEY,\n"
-        + "	word text NOT NULL\n"
+        + "id integer PRIMARY KEY,\n"
+        + "word text NOT NULL\n"
         + ");";
 
     //private String populateWordle;
