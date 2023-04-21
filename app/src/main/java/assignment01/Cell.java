@@ -126,14 +126,8 @@ public class Cell extends Rectangle{
         return "" + displayCharacter;
     }
 
-    @Override
     public String toString(){
         return Integer.toString(col) + Integer.toString(row) + ":'" + displayCharacter + "'";
     }
     
-    @Override
-    public Cell clone() {
-        Cell cloned = (Cell) super.clone();
-        return cloned;
-    }
 }
