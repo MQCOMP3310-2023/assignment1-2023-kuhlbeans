@@ -130,4 +130,5 @@ public class Cell extends Rectangle{
         return Integer.toString(col) + Integer.toString(row) + ":'" + displayCharacter + "'";
     }
     
+    
 }
