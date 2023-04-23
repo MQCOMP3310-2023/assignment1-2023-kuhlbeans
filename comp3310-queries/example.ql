@@ -5,4 +5,8 @@
  * @id java/example/empty-block
  */
 
+import java
 
+from ThrowStmt t
+where t.printStackTrace()
+select t, " this is what im looking for"
